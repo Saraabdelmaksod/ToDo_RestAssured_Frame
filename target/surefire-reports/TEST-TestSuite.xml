@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.151" tests="18" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\API\RestAssuresFrameWork\target\test-classes;D:\API\RestAssuresFrameWork\target\classes;C:\Users\Lap\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Lap\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Lap\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Lap\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lap\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lap\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lap\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lap\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lap\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Lap\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lap\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Lap\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Lap\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Lap\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Lap\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Lap\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lap\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lap\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lap\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Lap\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Lap\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Lap\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Lap\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lap\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Lap\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lap\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lap\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-testng\2.20.1\allure-testng-2.20.1.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-test-filter\2.20.1\allure-test-filter-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lap\AppData\Local\Temp\surefire4105994009644328373\surefirebooter-20221224203025079_3.jar C:\Users\Lap\AppData\Local\Temp\surefire4105994009644328373 2022-12-24T20-30-24_817-jvmRun1 surefire-20221224203025079_1tmp surefire_0-20221224203025079_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\API\RestAssuresFrameWork\target\test-classes;D:\API\RestAssuresFrameWork\target\classes;C:\Users\Lap\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Lap\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Lap\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Lap\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lap\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lap\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lap\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lap\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lap\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Lap\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lap\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Lap\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Lap\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Lap\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Lap\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Lap\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lap\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lap\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lap\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Lap\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\Lap\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\Lap\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;C:\Users\Lap\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Lap\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Lap\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Lap\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Lap\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-testng\2.20.1\allure-testng-2.20.1.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-java-commons\2.20.1\allure-java-commons-2.20.1.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-model\2.20.1\allure-model-2.20.1.jar;C:\Users\Lap\.m2\repository\io\qameta\allure\allure-test-filter\2.20.1\allure-test-filter-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lap"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\API\RestAssuresFrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lap\AppData\Local\Temp\surefire4105994009644328373\surefirebooter-20221224203025079_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="Lap"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lap\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lap\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="D:\API\RestAssuresFrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-17.0.3.1;C:\Users\Lap\Downloads\Selenium\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;C:\Program Files\nodejs\;C:\Users\Lap\AppData\Local\Android\Sdk;C:\Users\Lap\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\Lap\Downloads\allure-2.20.1 (4)\allure-2.20.1\bin;C:\Users\Lap\AppData\Local\Microsoft\WindowsApps;C:\Users\Lap\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="getSpecificTaskById" classname="com.qacart.todo.testcases.TodoTest" time="3.782">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$14.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:183)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$11.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.qacart.todo.testcases.TodoTest.getSpecificTaskById(TodoTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Kyle",
+    "lastName": "Lowe",
+    "email": "crysta.bruen@yahoo.com",
+    "password": "7cy9jwh1auea5b"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Leo",
+    "lastName": "Jaskolski",
+    "email": "sharice.braun@hotmail.com",
+    "password": "kx1faft1ek4"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Catina",
+    "lastName": "Swaniawski",
+    "email": "marisa.raynor@hotmail.com",
+    "password": "kc6uwbk4id7e8"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Kyle",
+    "lastName": "Bednar",
+    "email": "ronni.veum@yahoo.com",
+    "password": "fpnkld2vwuf"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Lauri",
+    "lastName": "Ritchie",
+    "email": "rob.lesch@gmail.com",
+    "password": "g1i5w1qwbw999"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 56
+Etag: W/"38-1q12VlbMDGUUyBzb+uaaTPWMonk"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "message": "We could not find the task in our database"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 56
+Etag: W/"38-1q12VlbMDGUUyBzb+uaaTPWMonk"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "message": "We could not find the task in our database"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 152
+Etag: W/"98-O09DegrRFPnpH6BG/SyZgv5voaw"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74545e956880016c4fa7c",
+    "item": "Learn",
+    "userID": "63937fd750acfe0016a21271",
+    "createdAt": "2022-12-24T18:30:29.111Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4MCIsImZpcnN0TmFtZSI6IkxlbyIsImxhc3ROYW1lIjoiSmFza29sc2tpIiwiaWF0IjoxNjcxOTA2NjI5fQ.0eojUVLcc8eaDcwXN_CE1mg34Ii_iPxnM3kv5aQRR48; Path=/
+Set-Cookie: userID=j%3A%2263a74545e956880016c4fa80%22; Path=/
+Set-Cookie: firstName=Leo; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Etag: W/"114-fsD9WEK+41HHAoOq1/5fKNzGk1M"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4MCIsImZpcnN0TmFtZSI6IkxlbyIsImxhc3ROYW1lIjoiSmFza29sc2tpIiwiaWF0IjoxNjcxOTA2NjI5fQ.0eojUVLcc8eaDcwXN_CE1mg34Ii_iPxnM3kv5aQRR48",
+    "userID": "63a74545e956880016c4fa80",
+    "firstName": "Leo"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 56
+Etag: W/"38-1q12VlbMDGUUyBzb+uaaTPWMonk"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "message": "We could not find the task in our database"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4MyIsImZpcnN0TmFtZSI6IkNhdGluYSIsImxhc3ROYW1lIjoiU3dhbmlhd3NraSIsImlhdCI6MTY3MTkwNjYyOX0.Au_y-JpqSzqmn8NCF3vFIIs2ESvKVM4ZCEbHPcVE780; Path=/
+Set-Cookie: userID=j%3A%2263a74545e956880016c4fa83%22; Path=/
+Set-Cookie: firstName=Catina; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 284
+Etag: W/"11c-+8flkWh5EEjJ9gnJgEJcNfd0eTE"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4MyIsImZpcnN0TmFtZSI6IkNhdGluYSIsImxhc3ROYW1lIjoiU3dhbmlhd3NraSIsImlhdCI6MTY3MTkwNjYyOX0.Au_y-JpqSzqmn8NCF3vFIIs2ESvKVM4ZCEbHPcVE780",
+    "userID": "63a74545e956880016c4fa83",
+    "firstName": "Catina"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4NSIsImZpcnN0TmFtZSI6Ikt5bGUiLCJsYXN0TmFtZSI6Ikxvd2UiLCJpYXQiOjE2NzE5MDY2Mjl9.iW4uIFlpGdm78U5YJEO14kudZG6xQSUO4frKPZAEK4Q; Path=/
+Set-Cookie: userID=j%3A%2263a74545e956880016c4fa85%22; Path=/
+Set-Cookie: firstName=Kyle; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 271
+Etag: W/"10f-js9wnBwGK654zaiN39VKDd9M8IM"
+Date: Sat, 24 Dec 2022 18:30:29 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4NSIsImZpcnN0TmFtZSI6Ikt5bGUiLCJsYXN0TmFtZSI6Ikxvd2UiLCJpYXQiOjE2NzE5MDY2Mjl9.iW4uIFlpGdm78U5YJEO14kudZG6xQSUO4frKPZAEK4Q",
+    "userID": "63a74545e956880016c4fa85",
+    "firstName": "Kyle"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="updateSpecificTaskById" classname="com.qacart.todo.testcases.TodoTest" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$14.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:183)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$12.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.qacart.todo.testcases.TodoTest.updateSpecificTaskById(TodoTest.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="deleteSpecificTaskById" classname="com.qacart.todo.testcases.TodoTest" time="0">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$14.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$9.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.qacart.todo.testcases.TodoTest.deleteSpecificTaskById(TodoTest.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="shouldAbleToAddTask" classname="com.qacart.todo.testcases.TodoTest" time="0.386">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test1@test.com",
+    "password": "1234567"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getAllTasks" classname="com.qacart.todo.testcases.TodoTest" time="0.233">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "ISTQB"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "The Skull Beneath the Skin",
+    "isCompleted": false
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "Beyond the Mexique Bay",
+    "isCompleted": false
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4YiIsImZpcnN0TmFtZSI6Ikt5bGUiLCJsYXN0TmFtZSI6IkJlZG5hciIsImlhdCI6MTY3MTkwNjYzMH0.Vd0HSmCOfqvgHhSAjCehkRNkmeSBa_LNN9aGQ2XCfL8; Path=/
+Set-Cookie: userID=j%3A%2263a74545e956880016c4fa8b%22; Path=/
+Set-Cookie: firstName=Kyle; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+Etag: W/"112-xyH4wXBnzp1A7cycO5hClrc2Z/w"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ1ZTk1Njg4MDAxNmM0ZmE4YiIsImZpcnN0TmFtZSI6Ikt5bGUiLCJsYXN0TmFtZSI6IkJlZG5hciIsImlhdCI6MTY3MTkwNjYzMH0.Vd0HSmCOfqvgHhSAjCehkRNkmeSBa_LNN9aGQ2XCfL8",
+    "userID": "63a74545e956880016c4fa8b",
+    "firstName": "Kyle"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 3096
+Etag: W/"c18-/3+NrUv4xVI/q5quynRpsjOVTaI"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "tasks": [
+        {
+            "isCompleted": false,
+            "_id": "6394934d3906010016f3eb50",
+            "item": "Learn Appium",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-10T14:10:21.973Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639782539c136d00161e3028",
+            "item": "Learn API22",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-12T19:34:43.623Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639782d99c136d00161e302b",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-12T19:36:57.077Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639786a19c136d00161e302f",
+            "item": "Selenium",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-12T19:53:05.735Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639787df9c136d00161e3033",
+            "item": "Selenium",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-12T19:58:23.154Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639788399c136d00161e3035",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-12T19:59:53.688Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63978aa29c136d00161e3037",
+            "item": "Agile",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-12T20:10:10.762Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a11dddb3f8700168f2aae",
+            "item": "Agile",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T18:11:41.910Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a12a2db3f8700168f2ab0",
+            "item": "TestTrue",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T18:14:58.025Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a12cadb3f8700168f2ab2",
+            "item": "TestTrue",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T18:15:38.174Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a3db4db3f8700168f2acd",
+            "item": "Maven",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T21:18:44.164Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a3e06db3f8700168f2acf",
+            "item": "Maven",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T21:20:06.131Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a3ee7db3f8700168f2ad1",
+            "item": "Maven",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T21:23:51.860Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "639a3f05db3f8700168f2ad3",
+            "item": "Maven",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-14T21:24:21.949Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63a739e1e956880016c4f994",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-24T17:41:53.560Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63a73c54e956880016c4f9af",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-24T17:52:20.828Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63a73e4fe956880016c4f9eb",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-24T18:00:47.921Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63a73f8fe956880016c4fa17",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-24T18:06:07.912Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63a741e8e956880016c4fa55",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-24T18:16:08.997Z",
+            "__v": 0
+        },
+        {
+            "isCompleted": false,
+            "_id": "63a74545e956880016c4fa7c",
+            "item": "Learn",
+            "userID": "63937fd750acfe0016a21271",
+            "createdAt": "2022-12-24T18:30:29.111Z",
+            "__v": 0
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testRegisterByDataUserBefore" classname="com.qacart.todo.testcases.UserTest" time="0.142">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "The Golden Apples of the Sun",
+    "isCompleted": false
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Jc",
+    "lastName": "Jacobson",
+    "email": "jann.homenick@yahoo.com",
+    "password": "wjtai8ntluznm5"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Etag: W/"35-dsxV0+vy1L0TgNQY0Spaqv/j9fw"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Email is already exists in the Database"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOTM3ZmQ3NTBhY2ZlMDAxNmEyMTI3MSIsImZpcnN0TmFtZSI6IlNhcmEiLCJsYXN0TmFtZSI6ImFobWVkIiwiaWF0IjoxNjcxOTA2NjMwfQ.EUJ75Wd3u4ChTOnXUyNvzyuhwTju0GlblFSw7rswm2A; Path=/
+Set-Cookie: userID=j%3A%2263937fd750acfe0016a21271%22; Path=/
+Set-Cookie: firstName=Sara; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 273
+Etag: W/"111-lSDFRBweAkK8bgTJhbIeJezdVFY"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOTM3ZmQ3NTBhY2ZlMDAxNmEyMTI3MSIsImZpcnN0TmFtZSI6IlNhcmEiLCJsYXN0TmFtZSI6ImFobWVkIiwiaWF0IjoxNjcxOTA2NjMwfQ.EUJ75Wd3u4ChTOnXUyNvzyuhwTju0GlblFSw7rswm2A",
+    "userID": "63937fd750acfe0016a21271",
+    "firstName": "Sara"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToLogin" classname="com.qacart.todo.testcases.UserTest" time="0.011">
+    <system-out><![CDATA[HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Etag: W/"69-+ROAeTYdLtKREH6azCyNv++b54o"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "message": "The email and password combination is not correct, please fill a correct email and password"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotBeAbleToLoginWhenPassIsWrong" classname="com.qacart.todo.testcases.UserTest" time="0.008"/>
+  <testcase name="testRegisterWithValidData" classname="com.qacart.todo.testcases.UserTest" time="0.065">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$14.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$12.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.qacart.todo.testcases.UserTest.testRegisterWithValidData(UserTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Glen",
+    "lastName": "Doyle",
+    "email": "pearline.kling@yahoo.com",
+    "password": "e8zzoqi3nu4"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Rosemarie",
+    "lastName": "Runolfsson",
+    "email": "brett.keebler@gmail.com",
+    "password": "73ubotwdhux"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Joann",
+    "lastName": "Hirthe",
+    "email": "maggie.dach@hotmail.com",
+    "password": "1126anqxdcrmq27"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 41
+Etag: W/"29-6r/RqTsrv9UltwKyzcuXEXN5hS4"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "message": "\"isCompleted\" is required"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Etag: W/"35-dsxV0+vy1L0TgNQY0Spaqv/j9fw"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Email is already exists in the Database"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotAbleToAddTaskWithoutCompleteStatus" classname="com.qacart.todo.testcases.ToDoDynamic5Test" time="0.089"/>
+  <testcase name="shouldAbleToAddTask" classname="com.qacart.todo.testcases.ToDoDynamic5Test" time="0.307">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-UgFVAPbHoc+tvV7WnIeXWVy8BFc"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74546e956880016c4fa8f",
+    "item": "The Skull Beneath the Skin",
+    "userID": "63a74545e956880016c4fa85",
+    "createdAt": "2022-12-24T18:30:30.372Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/"a9-AIG9V2F5brP3gqVGzpiIgJKPtAE"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74546e956880016c4fa91",
+    "item": "Beyond the Mexique Bay",
+    "userID": "63a74545e956880016c4fa83",
+    "createdAt": "2022-12-24T18:30:30.382Z",
+    "__v": 0
+}
+Request method:	DELETE
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/63a74546e956880016c4fa8f
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/63a74546e956880016c4fa91
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 175
+Etag: W/"af-6ZNdDmpjuMjMhseReg7RzcxPx7U"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74546e956880016c4fa93",
+    "item": "The Golden Apples of the Sun",
+    "userID": "63a74545e956880016c4fa8b",
+    "createdAt": "2022-12-24T18:30:30.541Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteSpecificTaskById" classname="com.qacart.todo.testcases.ToDoDynamic5Test" time="0.806">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ2ZTk1Njg4MDAxNmM0ZmE5NiIsImZpcnN0TmFtZSI6IkpjIiwibGFzdE5hbWUiOiJKYWNvYnNvbiIsImlhdCI6MTY3MTkwNjYzMH0.gPEmKhVsORzvNFtKJmH90gXbp_3-C8mCerGR4NUC7tU; Path=/
+Set-Cookie: userID=j%3A%2263a74546e956880016c4fa96%22; Path=/
+Set-Cookie: firstName=Jc; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 272
+Etag: W/"110-2wo//yzZHnQNMF+NeRoaV697ipo"
+Date: Sat, 24 Dec 2022 18:30:30 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ2ZTk1Njg4MDAxNmM0ZmE5NiIsImZpcnN0TmFtZSI6IkpjIiwibGFzdE5hbWUiOiJKYWNvYnNvbiIsImlhdCI6MTY3MTkwNjYzMH0.gPEmKhVsORzvNFtKJmH90gXbp_3-C8mCerGR4NUC7tU",
+    "userID": "63a74546e956880016c4fa96",
+    "firstName": "Jc"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "jann.homenick@yahoo.com",
+    "password": "wjtai8ntluznm5"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "jann.homenick@yahoo.com",
+    "password": "wjtai8ntluznm5"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 173
+Etag: W/"ad-UgFVAPbHoc+tvV7WnIeXWVy8BFc"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74546e956880016c4fa8f",
+    "item": "The Skull Beneath the Skin",
+    "userID": "63a74545e956880016c4fa85",
+    "createdAt": "2022-12-24T18:30:30.372Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ2ZTk1Njg4MDAxNmM0ZmE5ZCIsImZpcnN0TmFtZSI6IkdsZW4iLCJsYXN0TmFtZSI6IkRveWxlIiwiaWF0IjoxNjcxOTA2NjMxfQ.-jpSzVxqg7MKU9rxAezuUwdhtPzZWpddryu7DndiWo8; Path=/
+Set-Cookie: userID=j%3A%2263a74546e956880016c4fa9d%22; Path=/
+Set-Cookie: firstName=Glen; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 273
+Etag: W/"111-C/YJl+nfpf0P2oXWX6pCG6wyfG8"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ2ZTk1Njg4MDAxNmM0ZmE5ZCIsImZpcnN0TmFtZSI6IkdsZW4iLCJsYXN0TmFtZSI6IkRveWxlIiwiaWF0IjoxNjcxOTA2NjMxfQ.-jpSzVxqg7MKU9rxAezuUwdhtPzZWpddryu7DndiWo8",
+    "userID": "63a74546e956880016c4fa9d",
+    "firstName": "Glen"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAbleToGetTaskById" classname="com.qacart.todo.testcases.ToDoDynamic5Test" time="0.968"/>
+  <testcase name="updateSpecificTaskById" classname="com.qacart.todo.testcases.ToDoDynamic5Test" time="2.02">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 170
+Etag: W/"aa-U6NItY4Ex1sQjfQzxSaIceaujgU"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74547e956880016c4faa9",
+    "item": "The Glory and the Dream",
+    "userID": "63a74547e956880016c4faa5",
+    "createdAt": "2022-12-24T18:30:31.806Z",
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks/63a74547e956880016c4faa9
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 170
+Etag: W/"aa-U6NItY4Ex1sQjfQzxSaIceaujgU"
+Date: Sat, 24 Dec 2022 18:30:32 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74547e956880016c4faa9",
+    "item": "The Glory and the Dream",
+    "userID": "63a74547e956880016c4faa5",
+    "createdAt": "2022-12-24T18:30:31.806Z",
+    "__v": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testRegisterWithValidData" classname="com.qacart.todo.testcases.UserTestDynamic5Test" time="0.968">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pearline.kling@yahoo.com",
+    "password": "12345"
+}
+Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "pearline.kling@yahoo.com",
+    "password": "12345"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/"a9-AIG9V2F5brP3gqVGzpiIgJKPtAE"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "isCompleted": false,
+    "_id": "63a74546e956880016c4fa91",
+    "item": "Beyond the Mexique Bay",
+    "userID": "63a74545e956880016c4fa83",
+    "createdAt": "2022-12-24T18:30:30.382Z",
+    "__v": 0
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ3ZTk1Njg4MDAxNmM0ZmFhMiIsImZpcnN0TmFtZSI6IkpvYW5uIiwibGFzdE5hbWUiOiJIaXJ0aGUiLCJpYXQiOjE2NzE5MDY2MzF9.yKQJkUla9LrQ_nroqz1meNrkBlhsDBEFZ4uEDvbZYxs; Path=/
+Set-Cookie: userID=j%3A%2263a74547e956880016c4faa2%22; Path=/
+Set-Cookie: firstName=Joann; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 276
+Etag: W/"114-drvA+ejx8CkmoAQ2Yt9KR7wH4hY"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ3ZTk1Njg4MDAxNmM0ZmFhMiIsImZpcnN0TmFtZSI6IkpvYW5uIiwibGFzdE5hbWUiOiJIaXJ0aGUiLCJpYXQiOjE2NzE5MDY2MzF9.yKQJkUla9LrQ_nroqz1meNrkBlhsDBEFZ4uEDvbZYxs",
+    "userID": "63a74547e956880016c4faa2",
+    "firstName": "Joann"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ3ZTk1Njg4MDAxNmM0ZmFhMCIsImZpcnN0TmFtZSI6IlJvc2VtYXJpZSIsImxhc3ROYW1lIjoiUnVub2xmc3NvbiIsImlhdCI6MTY3MTkwNjYzMX0.9Rna06XUm1e4zfeHKZ6-3Nd3gW1yG474Y_BR-tovbls; Path=/
+Set-Cookie: userID=j%3A%2263a74547e956880016c4faa0%22; Path=/
+Set-Cookie: firstName=Rosemarie; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 291
+Etag: W/"123-HVNT+xvRgaxKNbtalMZ6ix7ebxU"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ3ZTk1Njg4MDAxNmM0ZmFhMCIsImZpcnN0TmFtZSI6IlJvc2VtYXJpZSIsImxhc3ROYW1lIjoiUnVub2xmc3NvbiIsImlhdCI6MTY3MTkwNjYzMX0.9Rna06XUm1e4zfeHKZ6-3Nd3gW1yG474Y_BR-tovbls",
+    "userID": "63a74547e956880016c4faa0",
+    "firstName": "Rosemarie"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToLogin" classname="com.qacart.todo.testcases.UserTestDynamic5Test" time="1.112">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "Rosemarie",
+    "lastName": "Runolfsson",
+    "email": "brett.keebler@gmail.com",
+    "password": "73ubotwdhux"
+}
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ3ZTk1Njg4MDAxNmM0ZmFhNSIsImZpcnN0TmFtZSI6IkxhdXJpIiwibGFzdE5hbWUiOiJSaXRjaGllIiwiaWF0IjoxNjcxOTA2NjMxfQ.Gmey9E_I8kV5_r3-FIwUBrdOKJuwRWXOHK1beUSQF3g; Path=/
+Set-Cookie: userID=j%3A%2263a74547e956880016c4faa5%22; Path=/
+Set-Cookie: firstName=Lauri; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 278
+Etag: W/"116-FHwH8YS9KUyXj7+pt9ioxpkAtjE"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ3ZTk1Njg4MDAxNmM0ZmFhNSIsImZpcnN0TmFtZSI6IkxhdXJpIiwibGFzdE5hbWUiOiJSaXRjaGllIiwiaWF0IjoxNjcxOTA2NjMxfQ.Gmey9E_I8kV5_r3-FIwUBrdOKJuwRWXOHK1beUSQF3g",
+    "userID": "63a74547e956880016c4faa5",
+    "firstName": "Lauri"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ2ZTk1Njg4MDAxNmM0ZmE5NiIsImZpcnN0TmFtZSI6IkpjIiwibGFzdE5hbWUiOiJKYWNvYnNvbiIsImlhdCI6MTY3MTkwNjYzMX0.gCJB1Yyr_KjeHAKczlDAJiDvz2S_atw5JKsLlxZezcg; Path=/
+Set-Cookie: userID=j%3A%2263a74546e956880016c4fa96%22; Path=/
+Set-Cookie: firstName=Jc; Path=/
+Content-Type: application/json; charset=utf-8
+Content-Length: 272
+Etag: W/"110-HOT/O4D8zyNMvNfc6vkNAegH8OM"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NTQ2ZTk1Njg4MDAxNmM0ZmE5NiIsImZpcnN0TmFtZSI6IkpjIiwibGFzdE5hbWUiOiJKYWNvYnNvbiIsImlhdCI6MTY3MTkwNjYzMX0.gCJB1Yyr_KjeHAKczlDAJiDvz2S_atw5JKsLlxZezcg",
+    "userID": "63a74546e956880016c4fa96",
+    "firstName": "Jc"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotBeAbleToLoginWhenPassIsWrong" classname="com.qacart.todo.testcases.UserTestDynamic5Test" time="1.408">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qacart-todo.herokuapp.com/api/v1/tasks
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "item": "The Glory and the Dream",
+    "isCompleted": false
+}
+HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Etag: W/"69-+ROAeTYdLtKREH6azCyNv++b54o"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "message": "The email and password combination is not correct, please fill a correct email and password"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldNotBeRegisterWithTheSameEmail" classname="com.qacart.todo.testcases.UserTestDynamic5Test" time="1.437">
+    <system-out><![CDATA[HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 53
+Etag: W/"35-dsxV0+vy1L0TgNQY0Spaqv/j9fw"
+Date: Sat, 24 Dec 2022 18:30:31 GMT
+Via: 1.1 vegur
+
+{
+    "message": "Email is already exists in the Database"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
